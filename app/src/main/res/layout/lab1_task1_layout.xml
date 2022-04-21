@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Дано натуральное число (более четырех знаков):\n– найти произведение нечетных цифр числа;\n– верно ли, что в числе нет цифр, кратных 3?"
+        android:textSize="18sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edit_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:hint="Натуральное число:"
+            android:inputType="number"
+            android:text="15" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Найти" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="8dp"
+        android:background="#CCC" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Произведение нечетных чисел"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/text_result1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Нет результата"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="8dp"
+        android:background="#CCC" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Верно ли, что в числе нет цифр, кратных 3"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/text_result2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Нет результата"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+</LinearLayout>

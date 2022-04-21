@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_lab3">
+
+    <fragment
+        android:id="@+id/navigation_lab1"
+        android:name="com.example.labs.ui.lab1.Lab1Fragment"
+        android:label="Лабараторная работа 1"
+        tools:layout="@layout/fragment_lab1" />
+
+    <fragment
+        android:id="@+id/navigation_lab2"
+        android:name="com.example.labs.ui.lab2.Lab2Fragment"
+        android:label="Лабараторная работа 2"
+        tools:layout="@layout/fragment_lab2" />
+
+    <fragment
+        android:id="@+id/navigation_lab3"
+        android:name="com.example.labs.ui.lab3.Lab3Fragment"
+        android:label="Лабараторная работа 3"
+        tools:layout="@layout/fragment_lab3" />
+</navigation>

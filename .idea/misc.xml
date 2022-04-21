@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/MarselTRIAR/AndroidStudioProjects/Labs/app/src/main/res/drawable/ic_baseline_filter_2_24.xml" value="0.189" />
+        <entry key="..\:/Users/MarselTRIAR/AndroidStudioProjects/Labs/app/src/main/res/drawable/ic_outline_filter_1_24.xml" value="0.189" />
+        <entry key="..\:/Users/MarselTRIAR/AndroidStudioProjects/Labs/app/src/main/res/drawable/rounded_dialog.xml" value="0.1535" />
+        <entry key="..\:/Users/MarselTRIAR/AndroidStudioProjects/Labs/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MarselTRIAR/AndroidStudioProjects/Labs/app/src/main/res/layout/fragment_lab1.xml" value="0.264" />
+        <entry key="..\:/Users/MarselTRIAR/AndroidStudioProjects/Labs/app/src/main/res/layout/fragment_lab2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MarselTRIAR/AndroidStudioProjects/Labs/app/src/main/res/layout/fragment_lab3.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MarselTRIAR/AndroidStudioProjects/Labs/app/src/main/res/layout/fragment_lab4.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MarselTRIAR/AndroidStudioProjects/Labs/app/src/main/res/layout/lab1_task1_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MarselTRIAR/AndroidStudioProjects/Labs/app/src/main/res/layout/lab1_task2_layout.xml" value="0.264" />
+        <entry key="..\:/Users/MarselTRIAR/AndroidStudioProjects/Labs/app/src/main/res/layout/lab1_task3_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MarselTRIAR/AndroidStudioProjects/Labs/app/src/main/res/layout/lab1_task4_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MarselTRIAR/AndroidStudioProjects/Labs/app/src/main/res/layout/lab2_task1_layout.xml" value="0.264" />
+        <entry key="..\:/Users/MarselTRIAR/AndroidStudioProjects/Labs/app/src/main/res/layout/lab2_task2_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MarselTRIAR/AndroidStudioProjects/Labs/app/src/main/res/layout/lab2_task3_layout.xml" value="0.22777777777777777" />
+        <entry key="..\:/Users/MarselTRIAR/AndroidStudioProjects/Labs/app/src/main/res/layout/lab3_task1_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MarselTRIAR/AndroidStudioProjects/Labs/app/src/main/res/layout/lab3_task2_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MarselTRIAR/AndroidStudioProjects/Labs/app/src/main/res/layout/lab4_task1_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MarselTRIAR/AndroidStudioProjects/Labs/app/src/main/res/layout/lab4_task2_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MarselTRIAR/AndroidStudioProjects/Labs/app/src/main/res/layout/lab4_task3_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MarselTRIAR/AndroidStudioProjects/Labs/app/src/main/res/layout/sample_lab_card.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/MarselTRIAR/AndroidStudioProjects/Labs/app/src/main/res/menu/bottom_nav_menu.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

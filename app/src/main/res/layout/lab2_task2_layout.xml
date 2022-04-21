@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:text="Заполнить" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Матрица А (4 x 5)" />
+
+    <androidx.compose.ui.platform.ComposeView
+        android:id="@+id/compose_mat_A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Матрица B (1 x 5)" />
+
+    <androidx.compose.ui.platform.ComposeView
+        android:id="@+id/compose_mat_B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

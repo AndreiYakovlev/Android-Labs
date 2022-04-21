@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edit_input1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789,"
+            android:hint="Одномерный массив целых чисел:"
+            android:inputType="number"
+            android:text="1,2,5,6,7,8,9,10" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:text="Применить" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="количество положительных и отрицательных элементов,
+а также произведение всех нечетных элементов, кратных 3"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_result1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Нет результата"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="8dp"
+        android:background="#CCC" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="найти номер четвертого положительного элемента массива, который кратен 3, если таковой имеется"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_result2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Нет результата"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="8dp"
+        android:background="#CCC" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="заменить нулем последний положительный нечетный элемент"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_result3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Нет результата"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="8dp"
+        android:background="#CCC" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="заменить минимальные элементы максимальными и, наоборот,
+максимальные элементы минимальными"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_result4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Нет результата"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+</LinearLayout>

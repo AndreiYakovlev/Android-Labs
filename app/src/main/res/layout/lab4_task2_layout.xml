@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edit_input0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Строка:"
+            android:text="Hello mama." />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="Проверить" />
+
+    <TextView
+        android:id="@+id/text_result1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Результат 1"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text_result2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Результат 2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text_result3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Результат 3"
+        android:textSize="18sp" />
+</LinearLayout>
